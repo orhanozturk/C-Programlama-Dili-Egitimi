@@ -2,7 +2,7 @@
 
 İçerik Ders işleme sırası ile birebir değildir. Konu akışına göre değişim göstermektedir.
 
-##  __Konulerı içeren uygulama dersleride olacaktır.__
+##  __Konuları içeren Uygulama Dersleride olacaktır.__
 ##  __Haftalık 2 dersten sonra Oyun Quizleri.__
 
 ##  __C Programlama Dilinin Genel Tanıtımı__
