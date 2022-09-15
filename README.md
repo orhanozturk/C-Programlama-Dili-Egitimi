@@ -1,4 +1,4 @@
-# C Programlama Dili Egitimi İçeriği (Düzenlemektedir)
+# C Programlama Dili Egitimi İçeriği (Düzenlenmektedir)
 
 İçerik Ders işleme sırası ile birebir değildir. Konu akışına göre değişim göstermektedir.
 
