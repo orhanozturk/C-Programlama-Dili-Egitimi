@@ -20,7 +20,7 @@
 -- C99 <br>
 -- C11 <br>
 -- C ve C++ ilişkisi <br>
-- Oyun Quiz <br>
+
 
 ## __Temel Kavramlar__
 - atom kavramı _(tokens)_ <br>
@@ -39,7 +39,6 @@
 - temel türler _(fundemantal types)_<br>
 - programcı tarafından tanımlanan türler _(user-defined types)_<br>
 - ifadeler (expressions)<br>
-- Oyun Quiz <br>
 
 ## __Veri Türleri (Data Types)__
 - varsayılan türler _(fundemental/basic types)_<br>
@@ -52,7 +51,6 @@
 - ilk değer verme _(initialization)_<br>
 - bildirim listesi _(declarations as comma-separated lists)_ <br>
 - tanımlama _(definition)_<br>
-- Oyun Quiz <br>
 
 ## __Bir C Programı Oluşturmak__
 - metin düzenleyici programlar ve text dosyaları<br>
