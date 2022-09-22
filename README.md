@@ -1,56 +1,62 @@
 # C Programlama Dili Egitimi İçeriği (Düzenlenmektedir)
 
-### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir.
+### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir. <br>
 
-	Konuları içeren Uygulama Dersleride olacaktır.
+	Konuları içeren Uygulama Dersleri olacaktır.
 	Ortalama 2 dersten sonra Oyun Quizleri yapılacaktır.
 
-##  📌C Programlama Dilinin Genel Tanıtımı
-- declarative ve imperative diller _(declarative & imperative languages)_ <br>
-- programlama paradigmaları _(programming paradigms)_ <br>
-- programlama dillerinin seviyesi _(level)_ <br>
-- mülkiyet _(proprietary languages)_ <br>
-- statik ve dinamik tür kavramları _(static typing vs. dynamic typing)_ <br>
-- prosedürel programlama ve C dili _(procedural programming & C language)_ <br>
-- C dilinin kullanım alanları <br>
-- C dilinin temel özellikleri<br>
-- C dilinin tarihsel gelişimi ve C Standartları _(history of C language & C Standards)_ <br>
--- Klasik C <br>
--- C89 <br>
--- C99 <br>
--- C11 <br>
--- C ve C++ ilişkisi <br>
+##  📌C Programlama Dilinin Genel Tanıtımı <br>
+➡️ C dilinin tarihsel gelişimi ve C Standartları __(history of C language & C Standards)__<br> 
+➡️ C dilinin kullanım alanları <br>
+➡️ C dilinin temel özellikleri <br>
+➡️ declarative ve imperative diller __(declarative & imperative languages)__ <br>
+➡️ programlama paradigmaları __(programming paradigms)__ <br>
+➡️ programlama dillerinin seviyesi __(level)__ <br>
+➡️ mülkiyet __(proprietary languages)__ <br>
+➡️ statik ve dinamik tür kavramları __(static typing vs. dynamic typing)__ <br>
+➡️ prosedürel programlama ve C dili __(procedural programming & C language)__ <br>
+➡️ Klasik C, C89, C99, C11, C ve C++ ilişkisi ele alınacaktır. <br>
 
+## 📌Sayı Sistemleri
+➡️ İkilik __(Binary)__ <br>
+➡️ Sekizlik __(Oktal)__ <br>
+➡️ Onluk __(Decimal)__ <br>
+➡️ Onaltılık __(Heksadesimal)__ <br>
+➡️ Onluk sayı sisteminden İkilik sayı sistemine dönüşüm <br>
+➡️ İkilik sayı sisteminden Onluk sayı sistemine dönüşüm <br>
+➡️ İkilik sayı sisteminden Sekizlik sayı sistemine dönüşüm <br>
+➡️ Sekizlik sayı sisteminden İkilik sayı sistemine dönüşüm <br>
+➡️ İkilik sayı sisteminden Onaltılık sayı sistemine dönüşüm  <br>
+➡️ Onaltılık sayı sisteminden İkilik sayı sistemine dönüşüm <br>
 
 ## 📌Temel Kavramlar
-- atom kavramı _(tokens)_ <br>
-&emsp;&emsp;- atom kategorileri _(token categories)_<br>
-&emsp;&emsp;- anahtar sözcükler _(keywords)_<br>
-&emsp;&emsp;- isimler _(identifiers)_<br>
-&emsp;&emsp;- sabitler _(constants - literals)_<br>
-&emsp;&emsp;- string literalleri _(string literals)_<br>
-&emsp;&emsp;- operatörler _(operators)_<br>
-&emsp;&emsp;- atomlarına ayırma _(tokenizing)_<br>
-&emsp;&emsp;- en uzun atom kuralı _(maximum munch)_<br>
-- sayı sistemleri<br>
-- nesneler _(objects)_<br>
-- tür kavramı _(data types)_<br>
-- nesnelerin bellek alanları _(storage)_<br>
-- temel türler _(fundemantal types)_<br>
-- programcı tarafından tanımlanan türler _(user-defined types)_<br>
-- ifadeler (expressions)<br>
+➡️ atom kavramı __(tokens)__ <br>
+&emsp;&emsp;- atom kategorileri __(token categories)__<br>
+&emsp;&emsp;- anahtar sözcükler __(keywords)__<br>
+&emsp;&emsp;- isimler __(identifiers)__<br>
+&emsp;&emsp;- sabitler __(constants - literals)__<br>
+&emsp;&emsp;- string literalleri __(string literals)__<br>
+&emsp;&emsp;- operatörler __(operators)__<br>
+&emsp;&emsp;- atomlarına ayırma __(tokenizing)__<br>
+&emsp;&emsp;- en uzun atom kuralı __(maximum munch)__<br>
+➡️ ifadeler __(expressions)__<br>
+➡️ nesneler __(objects)__<br>
+➡️ tür kavramı __(data types)__<br>
+➡️ nesnelerin bellek alanları __(storage)__<br>
+➡️ temel türler __(fundemantal types)__<br>
+➡️ programcı tarafından tanımlanan türler __(user-defined types)__<br>
 
 ## 📌Veri Türleri (Data Types)
-- varsayılan türler _(fundemental/basic types)_<br>
-- tamsayı türleri _(integer types)_<br>
-- gerçek sayı türleri _(floating types)_<br>
-- programcı tarafından oluşturulan türler _(user defined types)_<br>
+➡️ varsayılan türler __(fundemental/basic types)__<br>
+➡️ tamsayı türleri __(integer types)__<br>
+➡️ gerçek sayı türleri __(floating types)__<br>
+➡️ programcı tarafından oluşturulan türler __(user defined types)__<br>
 	
 ## 📌Bildirim ve Tanımlama (Declarations & Definitions)
-- bildirimler ve deyimler _(declarations and statements)_<br>
-- ilk değer verme _(initialization)_<br>
-- bildirim listesi _(declarations as comma-separated lists)_ <br>
-- tanımlama _(definition)_<br>
+➡️ bildirimler ve deyimler __(declarations and statements)__<br>
+➡️ ilk değer verme __(initialization)__<br>
+➡️ bildirim listesi __(declarations as comma-separated lists)__ <br>
+➡️ tanımlama __(definition)__<br>
 
 ## 📌Bir C Programı Oluşturmak
 - metin düzenleyici programlar ve text dosyaları<br>
