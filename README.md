@@ -59,161 +59,160 @@
 ➡️ tanımlama __(definition)__<br>
 
 ## 📌Bir C Programı Oluşturmak
-- metin düzenleyici programlar ve text dosyaları<br>
-- kaynak dosya ve çeviri birimi _(source file & translation unit)_<br>
-- derleyici program ve derleme süreci _(compilers & compile-time)_<br>
-- derleyici bulgu iletileri _(diagnostic messages of compilers)_<br>
-- tanımsız davranış _(undefined behavior)_<br>
-- derleyiciye bağlı durumlar _(implementation defined behavior)_<br>
-- derleyici programların lojik kontrolleri<br>
-- derleyiciler ve kod optimizasyonu _(compilers & cod optimization)_<br>
-- derleyici eklentileri _(compiler extensions)_<br>
-- önişlemci program _(preprocessor)_<br>
-- bağlayıcı program ve bağlama zamanı _(linker program & link time)_ <br>
-- ide’ler ve yardımcı programlar <br>
-- statik kod analizi yapan programlar<br>
-- hata ayıklayıcı programlar _(debuggers)_ <br>
-- Oyun Quiz <br>
+➡️ metin düzenleyici programlar ve text dosyaları<br>
+➡️ kaynak dosya ve çeviri birimi __(source file & translation unit)__<br>
+➡️ derleyici program ve derleme süreci __(compilers & compile-time)__<br>
+➡️ derleyici bulgu iletileri __(diagnostic messages of compilers)__<br>
+➡️ tanımsız davranış __(undefined behavior)__<br>
+➡️ derleyiciye bağlı durumlar __(implementation defined behavior)__<br>
+➡️ derleyici programların lojik kontrolleri<br>
+➡️ derleyiciler ve kod optimizasyonu __(compilers & cod optimization)__<br>
+➡️ derleyici eklentileri __(compiler extensions)__<br>
+➡️ önişlemci program __(preprocessor)__<br>
+➡️ bağlayıcı program ve bağlama zamanı __(linker program & link time)__ <br>
+➡️ ide’ler ve yardımcı programlar <br>
+➡️ statik kod analizi yapan programlar<br>
+➡️ hata ayıklayıcı programlar __(debuggers)__ <br>
+➡️ Oyun Quiz <br>
 		
 ## 📌Kapsam ve İsim arama (Scope & Name Lookup)
-- kapsam _(scope)_<br>
-- kapsam kategorileri _(scope categories)_<br>
-- isim arama _(name lookup)_<br>
-- isim çakışmaları _(name collision)_<br>
+➡️ kapsam __(scope)__<br>
+➡️ kapsam kategorileri __(scope categories)__<br>
+➡️ isim arama __(name lookup)__<br>
+➡️ isim çakışmaları __(name collision)__<br>
 	
 ## 📌Ömür Kavramı (Storage Duration)
-- otomatik ömür _(automatic storage class)_<br>
-- statik ömür _(static storage class)_<br>
-- dinamik ömür _(dynamic storage class)_<br>
-- Oyun Quiz <br>
+➡️ otomatik ömür __(automatic storage class)__<br>
+➡️ statik ömür __(static storage class)__<br>
+➡️ dinamik ömür __(dynamic storage class)__<br>
+➡️ Oyun Quiz <br>
 	
 ## 📌İşlevler (Functions)
-- işlevlerin tanımlanması _(function definitions)_<br>										
-- işlevlerin parametre değişkenleri _(formal parameters)_<br>
-- işlevlerin geri dönüş değerleri _(return values)_<br>
-- değerle çağrı _(call by value)_<br>
-- referansla çağrılan işlevler _(call by reference)_<br>
-- void işlevler _(void functions)_<br>
-- return deyimi _(return statement)_<br>
-- saf ve saf olmayan işlevler _(pure and impure functions)_<br>
-- işlevlerin çağrılması _(function calls)_<br>
-- işlev çağrılarından elde edilen değerlerin kullanılması<br>
-- inline işlevler _(inline functions)_<br>
-- işlevlerin bildirilmesi _(function declarations)_<br>
-- Oyun Quiz <br>
+➡️ işlevlerin tanımlanması __(function definitions)__<br>										
+➡️ işlevlerin parametre değişkenleri __(formal parameters)__<br>
+➡️ işlevlerin geri dönüş değerleri __(return values)__<br>
+➡️ değerle çağrı __(call by value)__<br>
+➡️ referansla çağrılan işlevler __(call by reference)__<br>
+➡️ void işlevler __(void functions)__<br>
+➡️ return deyimi __(return statement)__<br>
+➡️ saf ve saf olmayan işlevler __(pure and impure functions)__<br>
+➡️ işlevlerin çağrılması __(function calls)__<br>
+➡️ işlev çağrılarından elde edilen değerlerin kullanılması<br>
+➡️ inline işlevler __(inline functions)__<br>
+➡️ işlevlerin bildirilmesi __(function declarations)__<br>
+➡️ Oyun Quiz <br>
 	
 ## 📌Standart Kütüphane (Standard Library)
-- standart kütüphanenin varlık nedenleri<br>
-- standart formatlı giriş çıkış işlevleri _(standard formatted input/output functions)_<br>
-- standart giriş akımı _(standard input stream)_<br>
-- standart çıkış akımları _(standard output stream)_<br>
-- standart hata akımı _(standard error stream)_<br>
-- akımların yönlendirilmesi _(direction of the streams)_<br>
-- standart formatsız giriş ve çıkış işlemleri _(standard unformatted input/output functions)_ <br>
-- standart başlık dosyaları _(standard headers)_<br>
-- standart math kütüphanesi _(standard math library)_<br>
-- Oyun Quiz <br>
+➡️ standart kütüphanenin varlık nedenleri<br>
+➡️ standart formatlı giriş çıkış işlevleri __(standard formatted input/output functions)__<br>
+➡️ standart giriş akımı __(standard input stream)__<br>
+➡️ standart çıkış akımları __(standard output stream)__<br>
+➡️ standart hata akımı __(standard error stream)__<br>
+➡️ akımların yönlendirilmesi __(direction of the streams)__<br>
+➡️ standart formatsız giriş ve çıkış işlemleri __(standard unformatted input/output functions)__ <br>
+➡️ standart başlık dosyaları __(standard headers)__<br>
+➡️ standart math kütüphanesi __(standard math library)__<br>
+➡️ Oyun Quiz <br>
 
 ##  📌Operatörler (Operators)
-- operatörlerin değer üretmesi _(values generated by operators)_<br>
-- operatör önceliği _(priority of operators)_<br>
-- öncelik yönü _(associativity)_<br>
-- yan etki _(side effect)_<br>
-- yan etki noktası _(sequence point)_<br>
-- aritmetik operatörler<br>
-- toplama, çıkarma, çarpma, bölme ve kalan operatörleri<br>
-- işaret operatörleri _(sign operators)_<br>
-- artırma ve eksiltme operatörleri _(increment & decrement operators)_<br>
-- karşılaştırma operatörleri _(relational operators)_<br>
-- karşılaştırma idiyomları <br>
-- tipik hatalar _(typical mistakes)_<br> 
-- lojik operatörler _(logical operators)_<br>
-- atama operatörleri _(assignment operators)_<br>
-- virgül operatörü _(comma operator)_<br>
-- öncelik parantezi <br>
-- Oyun Quiz <br>
+➡️ operatörlerin değer üretmesi __(values generated by operators)__<br>
+➡️ operatör önceliği __(priority of operators)__<br>
+➡️ öncelik yönü ___(associativity)__<br>
+➡️ yan etki __(side effect)__<br>
+➡️ yan etki noktası __(sequence point)__<br>
+➡️ aritmetik operatörler<br>
+➡️ toplama, çıkarma, çarpma, bölme ve kalan operatörleri<br>
+➡️ işaret operatörleri __(sign operators)__<br>
+➡️ artırma ve eksiltme operatörleri __(increment & decrement operators)__<br>
+➡️ karşılaştırma operatörleri __(relational operators)__<br>
+➡️ karşılaştırma idiyomları <br>
+➡️ tipik hatalar __(typical mistakes)__<br> 
+➡️ lojik operatörler __(logical operators)__<br>
+➡️ atama operatörleri __(assignment operators)__<br>
+➡️ virgül operatörü __(comma operator)__<br>
+➡️ öncelik parantezi <br>
+➡️ Oyun Quiz <br>
 
 ##  📌Sabitler (Constants)
-- sabitlerin türleri _(types of constants)_<br>
-- karakter sabitleri _(character constants)_<br>
-- kaçış sekansları _(escape sequences)_<br>
+➡️ sabitlerin türleri __(types of constants)__<br>
+➡️ karakter sabitleri __(character constants)__<br>
+➡️ kaçış sekansları __(escape sequences)__<br>
 			
-##  📌Kontrol Deyimleri
-- if deyimi _(if statement)_ <br>
-- test işlevleri _(test functions)_<br>
-- döngü deyimleri<br>
-&emsp;&emsp;-- while döngü deyimi _(while statement)_<br>
-&emsp;&emsp;-- do while döngü deyimi _(do-while statement)_<br>
-&emsp;&emsp;-- for döngü deyimi _(for statement)_<br>
-&emsp;&emsp;-- break deyimi _(break statement)_<br>
-&emsp;&emsp;-- continue deyimi _(continue statement)_<br>
-&emsp;&emsp;-- iç içe döngüler _(nested loops)_ <br>
-&emsp;&emsp;-- döngü idiyomları _(loop idioms)_ <br>
-- switch deyimi _(switch statement)_<br>
-- goto deyimi _(goto statement)_<br>
-- Oyun Quiz <br>
+##  📌Kontrol Deyimleri & Döngü Deyimleri
+➡️ if deyimi _(if statement)_ <br>
+➡️ döngü deyimleri<br>
+&emsp;&emsp;-- while döngü deyimi __(while statement)__<br>
+&emsp;&emsp;-- do while döngü deyimi __(do-while statement)__<br>
+&emsp;&emsp;-- for döngü deyimi __(for statement)__<br>
+&emsp;&emsp;-- break deyimi __(break statement)__<br>
+&emsp;&emsp;-- continue deyimi __(continue statement)__<br>
+&emsp;&emsp;-- iç içe döngüler __(nested loops)__ <br>
+&emsp;&emsp;-- döngü idiyomları __(loop idioms)__ <br>
+➡️ switch deyimi __(switch statement)__<br>
+➡️ goto deyimi __(goto statement)__<br>
+➡️ Oyun Quiz <br>
 
 ##  📌Koşul Operatörü (Ternary Operator)
 
 ##  📌Standart ctype Kütüphanesi
-- karakter test işlevleri<br>
+➡️ karakter test işlevleri<br>
 &emsp;&emsp;-- isupper, islower, isalpha, isdigit, isalnum, isxdigit, isspace, isblank, ispunct, isprint, isgraph, iscntrl<br>
-- karakter dönüşüm işlevleri<br>
+➡️ karakter dönüşüm işlevleri<br>
 &emsp;&emsp;-- toupper ve tolower işlevleri<br>
 
 ##  📌İşlev Bildirimleri (Function Declarations)
 
 ##  📌Önişlemci Komutları – 1
-- önişlemci programın genel tanıtımı _(introduction to preprocessing )_ <br>
-- #include komutu _(include directive)_ <br>
-- #define komutu ve makrolar _(define directive & macros)_<br>
-&emsp;&emsp;-- sembolik sabitler _(symbolic constants)_<br>
-&emsp;&emsp;-- işlevsel makrolar _(functional macros)_<br>
-- #undef komutu _(undef directive)_<br>
-- koşullu derleme işlemleri ve koşullu derleme komutları _(conditional compiling directives)_<br>
+➡️ önişlemci programın genel tanıtımı __(introduction to preprocessing )__ <br>
+➡️ #include komutu __(include directive)__ <br>
+➡️ #define komutu ve makrolar __(define directive & macros)__<br>
+&emsp;&emsp;-- sembolik sabitler __(symbolic constants)__<br>
+&emsp;&emsp;-- işlevsel makrolar __(functional macros)__<br>
+➡️ #undef komutu __(undef directive)__<br>
+➡️ koşullu derleme işlemleri ve koşullu derleme komutları __(conditional compiling directives)__<br>
 &emsp;&emsp;- #if<br>
 &emsp;&emsp;- #endif<br>
 &emsp;&emsp;- #else<br>
 &emsp;&emsp;- #elif<br>
 &emsp;&emsp;- #ifdef<br>
 &emsp;&emsp;- #ifndef<br>
-- standart limits kütüphanesi _(standard \<limits> header)_<br>
+➡️ standart limits kütüphanesi __(standard \<limits> header)__<br>
 	
 ##  📌Tür Dönüşümleri (Type Conversions)
-- otomatik tür dönüşümleri _(implicit type conversions)_<br>
-- tür dönüştürme operatörü _(type-cast operator)_<br>
-- tür dönüşümleri ve veri kaybı _(narrowing conversions)_<br>
-- Oyun Quiz <br>
+➡️ otomatik tür dönüşümleri _(implicit type conversions)_<br>
+➡️ tür dönüştürme operatörü _(type-cast operator)_<br>
+➡️ tür dönüşümleri ve veri kaybı _(narrowing conversions)_<br>
+➡️ Oyun Quiz <br>
 	
 ## 📌typedef bildirimleri – 1
-- tür eş isimleri ve taşınabilirlik _(type alias & portability)_  <br>
-- standart typedef isimleri _(standard typedef names)_<br>
-- \<stdint> başlık dosyası<br>
-- \<stdbool> başlık dosyası<br>
+➡️ tür eş isimleri ve taşınabilirlik __(type alias & portability)__  <br>
+➡️ standart typedef isimleri __(standard typedef names)__<br>
+➡️ \<stdint.h> başlık dosyası<br>
+➡️ \<stdbool.h> başlık dosyası<br>
 	
 ##  📌Rastgele Sayı Üretimi ve Programlamadaki Önemi
-- gerçek ve sözde rastgele sayı üretimi _(truly and pseudo random number generation)_<br>
-- rastgele sayı üretim algoritmaları<br>
-- tohum değeri _(seed value)_<br>
-- standart _rand_ ve _srand_ işlevleri<br>
+➡️ gerçek ve sözde rastgele sayı üretimi __(truly and pseudo random number generation)__<br>
+➡️ rastgele sayı üretim algoritmaları<br>
+➡️ tohum değeri __(seed value)__<br>
+➡️ standart _rand_ ve _srand_ işlevleri<br>
 
 ##  📌sizeof Operatörü
-- Oyun Quiz <br>
+➡️ Oyun Quiz <br>
 
 ##  📌Diziler (arrays)
-- veri yapıları ve algoritmalara giriş _(introduction to data structure & algorithms)_<br>
-- veri yapıları _(data structures)_<br>
-- algoritmanın karmaşıklığı _(complexity of algorithms)_<br>
-- big O notasyonu _(big O notation)_<br>
-- tamsayı ve gerçek sayı dizileri<br>
-- dizilere ilk değer verme _(initialization of arrays)_<br>
-- designated initializer (C99)<br>
-- diziler üstünde yürütülen temel algoritmalar<br>
-- yazılar ve yazı tutan char diziler<br>
-- null karakter _(null character)_<br>
-- yazılar üstünde yürütülen temel algoritmalar<br>
-- yazılara ilişkin temel algoritmalar<br>
-- Oyun Quiz <br>
+➡️ veri yapıları ve algoritmalara giriş _(introduction to data structure & algorithms)_<br>
+➡️ veri yapıları _(data structures)_<br>
+➡️ algoritmanın karmaşıklığı _(complexity of algorithms)_<br>
+➡️ big O notasyonu _(big O notation)_<br>
+➡️ tamsayı ve gerçek sayı dizileri<br>
+➡️ dizilere ilk değer verme _(initialization of arrays)_<br>
+➡️ designated initializer (C99)<br>
+➡️ diziler üstünde yürütülen temel algoritmalar<br>
+➡️ yazılar ve yazı tutan char diziler<br>
+➡️ null karakter _(null character)_<br>
+➡️ yazılar üstünde yürütülen temel algoritmalar<br>
+➡️ yazılara ilişkin temel algoritmalar<br>
+➡️ Oyun Quiz <br>
 
 ##  📌Göstericiler (pointers)
 - temel kavramlar<br>
