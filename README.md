@@ -1,419 +1,418 @@
 # C Programlama Dili Egitimi İçeriği (Düzenlenmektedir)
 
-### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir. <br>
+### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir. 
 
 	Konuları içeren Uygulama Dersleri olacaktır.
 	Ortalama 2 dersten sonra Oyun Quizleri yapılacaktır.
 
-##  📌C Programlama Dilinin Genel Tanıtımı <br>
-➡️ C dilinin tarihsel gelişimi ve C Standartları __(history of C language & C Standards)__<br> 
-➡️ C dilinin kullanım alanları <br>
-➡️ C dilinin temel özellikleri <br>
-➡️ declarative ve imperative diller __(declarative & imperative languages)__ <br>
-➡️ programlama paradigmaları __(programming paradigms)__ <br>
-➡️ programlama dillerinin seviyesi __(level)__ <br>
-➡️ mülkiyet __(proprietary languages)__ <br>
-➡️ statik ve dinamik tür kavramları __(static typing vs. dynamic typing)__ <br>
-➡️ prosedürel programlama ve C dili __(procedural programming & C language)__ <br>
-➡️ Klasik C, C89, C99, C11, C ve C++ ilişkisi ele alınacaktır. <br>
+##  📌C Programlama Dilinin Genel Tanıtımı 
+	➡️ C dilinin tarihsel gelişimi ve C Standartları (History of C language & C Standards)
+	➡️ C dilinin kullanım alanları 
+	➡️ C dilinin temel özellikleri 
+	➡️ declarative ve imperative diller (declarative & imperative languages) 
+	➡️ programlama paradigmaları (programming paradigms) 
+	➡️ programlama dillerinin seviyesi (level) 
+	➡️ mülkiyet (proprietary languages) 
+	➡️ statik ve dinamik tür kavramları (static typing vs. dynamic typing) 
+	➡️ prosedürel programlama ve C dili (procedural programming & C language) 
+	➡️ Klasik C, C89, C99, C11, C ve C++ ilişkisi ele alınacaktır. 
 
 ## 📌Sayı Sistemleri
-➡️ İkilik __(Binary)__ <br>
-➡️ Sekizlik __(Oktal)__ <br>
-➡️ Onluk __(Decimal)__ <br>
-➡️ Onaltılık __(Heksadesimal)__ <br>
-➡️ Onluk sayı sisteminden İkilik sayı sistemine dönüşüm <br>
-➡️ İkilik sayı sisteminden Onluk sayı sistemine dönüşüm <br>
-➡️ İkilik sayı sisteminden Sekizlik sayı sistemine dönüşüm <br>
-➡️ Sekizlik sayı sisteminden İkilik sayı sistemine dönüşüm <br>
-➡️ İkilik sayı sisteminden Onaltılık sayı sistemine dönüşüm  <br>
-➡️ Onaltılık sayı sisteminden İkilik sayı sistemine dönüşüm <br>
+	➡️ İkilik (Binary) 
+	➡️ Sekizlik (Oktal) 
+	➡️ Onluk (Decimal) 
+	➡️ Onaltılık (Heksadesimal) 
+	➡️ Onluk sayı sisteminden İkilik sayı sistemine dönüşüm 
+	➡️ İkilik sayı sisteminden Onluk sayı sistemine dönüşüm 
+	➡️ İkilik sayı sisteminden Sekizlik sayı sistemine dönüşüm 
+	➡️ Sekizlik sayı sisteminden İkilik sayı sistemine dönüşüm 
+	➡️ İkilik sayı sisteminden Onaltılık sayı sistemine dönüşüm  
+	➡️ Onaltılık sayı sisteminden İkilik sayı sistemine dönüşüm 
 
 ## 📌Temel Kavramlar
-➡️ atom kavramı __(tokens)__ <br>
-&emsp;&emsp;- atom kategorileri __(token categories)__<br>
-&emsp;&emsp;- anahtar sözcükler __(keywords)__<br>
-&emsp;&emsp;- isimler __(identifiers)__<br>
-&emsp;&emsp;- sabitler __(constants - literals)__<br>
-&emsp;&emsp;- string literalleri __(string literals)__<br>
-&emsp;&emsp;- operatörler __(operators)__<br>
-&emsp;&emsp;- atomlarına ayırma __(tokenizing)__<br>
-&emsp;&emsp;- en uzun atom kuralı __(maximum munch)__<br>
-➡️ ifadeler __(expressions)__<br>
-➡️ nesneler __(objects)__<br>
-➡️ tür kavramı __(data types)__<br>
-➡️ nesnelerin bellek alanları __(storage)__<br>
-➡️ temel türler __(fundemantal types)__<br>
-➡️ programcı tarafından tanımlanan türler __(user-defined types)__<br>
+	➡️ atom kavramı (tokens) 
+	    - atom kategorileri (token categories)
+	    - anahtar sözcükler (keywords)
+	    - isimler (identifiers)
+	    - sabitler (constants - literals)
+	    - string literalleri (string literals)
+	    - operatörler (operators)
+	    - atomlarına ayırma (tokenizing)
+	    - en uzun atom kuralı (maximum munch)
+	➡️ ifadeler (expressions)
+	➡️ nesneler (objects)
+	➡️ tür kavramı (data types)
+	➡️ nesnelerin bellek alanları (storage)
+	➡️ temel türler (fundemantal types)
+	➡️ programcı tarafından tanımlanan türler (user-defined types)
 
 ## 📌Veri Türleri (Data Types)
-➡️ varsayılan türler __(fundemental/basic types)__<br>
-➡️ tamsayı türleri __(integer types)__<br>
-➡️ gerçek sayı türleri __(floating types)__<br>
-➡️ programcı tarafından oluşturulan türler __(user defined types)__<br>
+	➡️ varsayılan türler (fundemental/basic types)
+	➡️ tamsayı türleri (integer types)
+	➡️ gerçek sayı türleri (floating types)
+	➡️ programcı tarafından oluşturulan türler (user defined types)
 	
 ## 📌Bildirim ve Tanımlama (Declarations & Definitions)
-➡️ bildirimler ve deyimler __(declarations and statements)__<br>
-➡️ ilk değer verme __(initialization)__<br>
-➡️ bildirim listesi __(declarations as comma-separated lists)__ <br>
-➡️ tanımlama __(definition)__<br>
+	➡️ bildirimler ve deyimler (declarations and statements)
+	➡️ ilk değer verme (initialization)
+	➡️ bildirim listesi (declarations as comma-separated lists) 
+	➡️ tanımlama (definition)
 
 ## 📌Bir C Programı Oluşturmak
-➡️ metin düzenleyici programlar ve text dosyaları<br>
-➡️ kaynak dosya ve çeviri birimi __(source file & translation unit)__<br>
-➡️ derleyici program ve derleme süreci __(compilers & compile-time)__<br>
-➡️ derleyici bulgu iletileri __(diagnostic messages of compilers)__<br>
-➡️ tanımsız davranış __(undefined behavior)__<br>
-➡️ derleyiciye bağlı durumlar __(implementation defined behavior)__<br>
-➡️ derleyici programların lojik kontrolleri<br>
-➡️ derleyiciler ve kod optimizasyonu __(compilers & cod optimization)__<br>
-➡️ derleyici eklentileri __(compiler extensions)__<br>
-➡️ önişlemci program __(preprocessor)__<br>
-➡️ bağlayıcı program ve bağlama zamanı __(linker program & link time)__ <br>
-➡️ ide’ler ve yardımcı programlar <br>
-➡️ statik kod analizi yapan programlar<br>
-➡️ hata ayıklayıcı programlar __(debuggers)__ <br>
-➡️ Oyun Quiz <br>
+	➡️ metin düzenleyici programlar ve text dosyaları
+	➡️ kaynak dosya ve çeviri birimi (source file & translation unit)
+	➡️ derleyici program ve derleme süreci (compilers & compile-time)
+	➡️ derleyici bulgu iletileri (diagnostic messages of compilers)
+	➡️ tanımsız davranış (undefined behavior)
+	➡️ derleyiciye bağlı durumlar (implementation defined behavior)
+	➡️ derleyici programların lojik kontrolleri
+	➡️ derleyiciler ve kod optimizasyonu (compilers & cod optimization)
+	➡️ derleyici eklentileri (compiler extensions)
+	➡️ önişlemci program (preprocessor)
+	➡️ bağlayıcı program ve bağlama zamanı (linker program & link time) 
+	➡️ ide’ler ve yardımcı programlar 
+	➡️ statik kod analizi yapan programlar
+	➡️ hata ayıklayıcı programlar (debuggers) 
+	➡️ Oyun Quiz 
 		
 ## 📌Kapsam ve İsim arama (Scope & Name Lookup)
-➡️ kapsam __(scope)__<br>
-➡️ kapsam kategorileri __(scope categories)__<br>
-➡️ isim arama __(name lookup)__<br>
-➡️ isim çakışmaları __(name collision)__<br>
+	➡️ kapsam (scope)
+	➡️ kapsam kategorileri (scope categories)
+	➡️ isim arama (name lookup)
+	➡️ isim çakışmaları (name collision)
 	
 ## 📌Ömür Kavramı (Storage Duration)
-➡️ otomatik ömür __(automatic storage class)__<br>
-➡️ statik ömür __(static storage class)__<br>
-➡️ dinamik ömür __(dynamic storage class)__<br>
-➡️ Oyun Quiz <br>
+	➡️ otomatik ömür (automatic storage class)
+	➡️ statik ömür (static storage class)
+	➡️ dinamik ömür (dynamic storage class)
+	➡️ Oyun Quiz 
 	
 ## 📌İşlevler (Functions)
-➡️ işlevlerin tanımlanması __(function definitions)__<br>										
-➡️ işlevlerin parametre değişkenleri __(formal parameters)__<br>
-➡️ işlevlerin geri dönüş değerleri __(return values)__<br>
-➡️ değerle çağrı __(call by value)__<br>
-➡️ referansla çağrılan işlevler __(call by reference)__<br>
-➡️ void işlevler __(void functions)__<br>
-➡️ return deyimi __(return statement)__<br>
-➡️ saf ve saf olmayan işlevler __(pure and impure functions)__<br>
-➡️ işlevlerin çağrılması __(function calls)__<br>
-➡️ işlev çağrılarından elde edilen değerlerin kullanılması<br>
-➡️ inline işlevler __(inline functions)__<br>
-➡️ işlevlerin bildirilmesi __(function declarations)__<br>
-➡️ Oyun Quiz <br>
+	➡️ işlevlerin tanımlanması (function definitions)										
+	➡️ işlevlerin parametre değişkenleri (formal parameters)
+	➡️ işlevlerin geri dönüş değerleri (return values)
+	➡️ değerle çağrı (call by value)
+	➡️ referansla çağrılan işlevler (call by reference)
+	➡️ void işlevler (void functions)
+	➡️ return deyimi (return statement)
+	➡️ saf ve saf olmayan işlevler (pure and impure functions)
+	➡️ işlevlerin çağrılması (function calls)
+	➡️ işlev çağrılarından elde edilen değerlerin kullanılması
+	➡️ inline işlevler (inline functions)
+	➡️ işlevlerin bildirilmesi (function declarations)
+	➡️ Oyun Quiz 
 	
 ## 📌Standart Kütüphane (Standard Library)
-➡️ standart kütüphanenin varlık nedenleri<br>
-➡️ standart formatlı giriş çıkış işlevleri __(standard formatted input/output functions)__<br>
-➡️ standart giriş akımı __(standard input stream)__<br>
-➡️ standart çıkış akımları __(standard output stream)__<br>
-➡️ standart hata akımı __(standard error stream)__<br>
-➡️ akımların yönlendirilmesi __(direction of the streams)__<br>
-➡️ standart formatsız giriş ve çıkış işlemleri __(standard unformatted input/output functions)__ <br>
-➡️ standart başlık dosyaları __(standard headers)__<br>
-➡️ standart math kütüphanesi __(standard math library)__<br>
-➡️ Oyun Quiz <br>
+	➡️ standart kütüphanenin varlık nedenleri
+	➡️ standart formatlı giriş çıkış işlevleri (standard formatted input/output functions)
+	➡️ standart giriş akımı (standard input stream)
+	➡️ standart çıkış akımları (standard output stream)
+	➡️ standart hata akımı (standard error stream)
+	➡️ akımların yönlendirilmesi (direction of the streams)
+	➡️ standart formatsız giriş ve çıkış işlemleri (standard unformatted input/output functions) 
+	➡️ standart başlık dosyaları (standard headers)
+	➡️ standart math kütüphanesi (standard math library)
+	➡️ Oyun Quiz 
 
 ##  📌Operatörler (Operators)
-➡️ operatörlerin değer üretmesi __(values generated by operators)__<br>
-➡️ operatör önceliği __(priority of operators)__<br>
-➡️ öncelik yönü ___(associativity)__<br>
-➡️ yan etki __(side effect)__<br>
-➡️ yan etki noktası __(sequence point)__<br>
-➡️ aritmetik operatörler<br>
-➡️ toplama, çıkarma, çarpma, bölme ve kalan operatörleri<br>
-➡️ işaret operatörleri __(sign operators)__<br>
-➡️ artırma ve eksiltme operatörleri __(increment & decrement operators)__<br>
-➡️ karşılaştırma operatörleri __(relational operators)__<br>
-➡️ karşılaştırma idiyomları <br>
-➡️ tipik hatalar __(typical mistakes)__<br> 
-➡️ lojik operatörler __(logical operators)__<br>
-➡️ atama operatörleri __(assignment operators)__<br>
-➡️ virgül operatörü __(comma operator)__<br>
-➡️ öncelik parantezi <br>
-➡️ Oyun Quiz <br>
+	➡️ operatörlerin değer üretmesi (values generated by operators)
+	➡️ operatör önceliği (priority of operators)
+	➡️ öncelik yönü _(associativity)
+	➡️ yan etki (side effect)
+	➡️ yan etki noktası (sequence point)
+	➡️ aritmetik operatörler
+	➡️ toplama, çıkarma, çarpma, bölme ve kalan operatörleri
+	➡️ işaret operatörleri (sign operators)
+	➡️ artırma ve eksiltme operatörleri (increment & decrement operators)
+	➡️ karşılaştırma operatörleri (relational operators)
+	➡️ karşılaştırma idiyomları 
+	➡️ tipik hatalar (typical mistakes) 
+	➡️ lojik operatörler (logical operators)
+	➡️ atama operatörleri (assignment operators)
+	➡️ virgül operatörü (comma operator)
+	➡️ öncelik parantezi 
+	➡️ Oyun Quiz 
 
 ##  📌Sabitler (Constants)
-➡️ sabitlerin türleri __(types of constants)__<br>
-➡️ karakter sabitleri __(character constants)__<br>
-➡️ kaçış sekansları __(escape sequences)__<br>
+	➡️ sabitlerin türleri (types of constants)
+	➡️ karakter sabitleri (character constants)
+	➡️ kaçış sekansları (escape sequences)
 			
 ##  📌Kontrol Deyimleri & Döngü Deyimleri
-➡️ if deyimi _(if statement)_ <br>
-➡️ döngü deyimleri<br>
-&emsp;&emsp;-- while döngü deyimi __(while statement)__<br>
-&emsp;&emsp;-- do while döngü deyimi __(do-while statement)__<br>
-&emsp;&emsp;-- for döngü deyimi __(for statement)__<br>
-&emsp;&emsp;-- break deyimi __(break statement)__<br>
-&emsp;&emsp;-- continue deyimi __(continue statement)__<br>
-&emsp;&emsp;-- iç içe döngüler __(nested loops)__ <br>
-&emsp;&emsp;-- döngü idiyomları __(loop idioms)__ <br>
-➡️ switch deyimi __(switch statement)__<br>
-➡️ goto deyimi __(goto statement)__<br>
-➡️ Oyun Quiz <br>
+	➡️ if deyimi _(if statement)_ 
+	➡️ döngü deyimleri
+	    -- while döngü deyimi (while statement)
+	    -- do while döngü deyimi (do-while statement)
+	    -- for döngü deyimi (for statement)
+	    -- break deyimi (break statement)
+	    -- continue deyimi (continue statement)
+	    -- iç içe döngüler (nested loops) 
+	    -- döngü idiyomları (loop idioms) 
+	➡️ switch deyimi (switch statement)
+	➡️ goto deyimi (goto statement)
+	➡️ Oyun Quiz 
 
 ##  📌Koşul Operatörü (Ternary Operator)
 
 ##  📌Standart ctype Kütüphanesi
-➡️ karakter test işlevleri<br>
-&emsp;&emsp;-- isupper, islower, isalpha, isdigit, isalnum, isxdigit, isspace, isblank, ispunct, isprint, isgraph, iscntrl<br>
-➡️ karakter dönüşüm işlevleri<br>
-&emsp;&emsp;-- toupper ve tolower işlevleri<br>
+	➡️ karakter test işlevleri
+	    -- isupper, islower, isalpha, isdigit, isalnum, isxdigit, isspace, isblank, ispunct, isprint, isgraph, iscntrl
+	➡️ karakter dönüşüm işlevleri
+	    -- toupper ve tolower işlevleri
 
 ##  📌İşlev Bildirimleri (Function Declarations)
 
 ##  📌Önişlemci Komutları – 1
-➡️ önişlemci programın genel tanıtımı __(introduction to preprocessing )__ <br>
-➡️ #include komutu __(include directive)__ <br>
-➡️ #define komutu ve makrolar __(define directive & macros)__<br>
-&emsp;&emsp;-- sembolik sabitler __(symbolic constants)__<br>
-&emsp;&emsp;-- işlevsel makrolar __(functional macros)__<br>
-➡️ #undef komutu __(undef directive)__<br>
-➡️ koşullu derleme işlemleri ve koşullu derleme komutları __(conditional compiling directives)__<br>
-&emsp;&emsp;- #if<br>
-&emsp;&emsp;- #endif<br>
-&emsp;&emsp;- #else<br>
-&emsp;&emsp;- #elif<br>
-&emsp;&emsp;- #ifdef<br>
-&emsp;&emsp;- #ifndef<br>
-➡️ standart limits kütüphanesi __(standard \<limits> header)__<br>
+	➡️ önişlemci programın genel tanıtımı (introduction to preprocessing ) 
+	➡️ #include komutu (include directive) 
+	➡️ #define komutu ve makrolar (define directive & macros)
+	    -- sembolik sabitler (symbolic constants)
+	    -- işlevsel makrolar (functional macros)
+	➡️ #undef komutu (undef directive)
+	➡️ koşullu derleme işlemleri ve koşullu derleme komutları (conditional compiling directives)
+	    - #if
+	    - #endif
+	    - #else
+	    - #elif
+	    - #ifdef
+	    - #ifndef
+	➡️ standart limits kütüphanesi (standard \<limits> header)
 	
 ##  📌Tür Dönüşümleri (Type Conversions)
-➡️ otomatik tür dönüşümleri _(implicit type conversions)_<br>
-➡️ tür dönüştürme operatörü _(type-cast operator)_<br>
-➡️ tür dönüşümleri ve veri kaybı _(narrowing conversions)_<br>
-➡️ Oyun Quiz <br>
+	➡️ otomatik tür dönüşümleri _(implicit type conversions)_
+	➡️ tür dönüştürme operatörü _(type-cast operator)_
+	➡️ tür dönüşümleri ve veri kaybı _(narrowing conversions)_
+	➡️ Oyun Quiz 
 	
 ## 📌typedef bildirimleri – 1
-➡️ tür eş isimleri ve taşınabilirlik __(type alias & portability)__  <br>
-➡️ standart typedef isimleri __(standard typedef names)__<br>
-➡️ \<stdint.h> başlık dosyası<br>
-➡️ \<stdbool.h> başlık dosyası<br>
-	
+	➡️ tür eş isimleri ve taşınabilirlik (type alias & portability)  
+	➡️ standart typedef isimleri (standard typedef names)
+	➡️ \<stdint.h> başlık dosyası
+	➡️ \<stdbool.h> başlık dosyası
+
 ##  📌Rastgele Sayı Üretimi ve Programlamadaki Önemi
-➡️ gerçek ve sözde rastgele sayı üretimi __(truly and pseudo random number generation)__<br>
-➡️ rastgele sayı üretim algoritmaları<br>
-➡️ tohum değeri __(seed value)__<br>
-➡️ standart _rand_ ve _srand_ işlevleri<br>
+	➡️ gerçek ve sözde rastgele sayı üretimi (truly and pseudo random number generation)
+	➡️ rastgele sayı üretim algoritmaları
+	➡️ tohum değeri (seed value)
+	➡️ standart _rand_ ve _srand_ işlevleri
 
 ##  📌sizeof Operatörü
-➡️ Oyun Quiz <br>
+	➡️ Oyun Quiz 
 
 ##  📌Diziler (arrays)
-➡️ veri yapıları ve algoritmalara giriş __(introduction to data structure & algorithms)__<br>
-➡️ veri yapıları __(data structures)__<br>
-➡️ algoritmanın karmaşıklığı __(complexity of algorithms)__<br>
-➡️ big O notasyonu __(big O notation)__<br>
-➡️ tamsayı ve gerçek sayı dizileri<br>
-➡️ dizilere ilk değer verme __(initialization of arrays)__<br>
-➡️ designated initializer (C99)<br>
-➡️ diziler üstünde yürütülen temel algoritmalar<br>
-➡️ yazılar ve yazı tutan char diziler<br>
-➡️ null karakter __(null character)__<br>
-➡️ yazılar üstünde yürütülen temel algoritmalar<br>
-➡️ yazılara ilişkin temel algoritmalar<br>
-➡️ Oyun Quiz <br>
+	➡️ veri yapıları ve algoritmalara giriş (introduction to data structure & algorithms)
+	➡️ veri yapıları (data structures)
+	➡️ algoritmanın karmaşıklığı (complexity of algorithms)
+	➡️ big O notasyonu (big O notation)
+	➡️ tamsayı ve gerçek sayı dizileri
+	➡️ dizilere ilk değer verme (initialization of arrays)
+	➡️ designated initializer (C99)
+	➡️ diziler üstünde yürütülen temel algoritmalar
+	➡️ yazılar ve yazı tutan char diziler
+	➡️ null karakter (null character)
+	➡️ yazılar üstünde yürütülen temel algoritmalar
+	➡️ yazılara ilişkin temel algoritmalar
+	➡️ Oyun Quiz 
 
 ##  📌Göstericiler (pointers)
-➡️ adres ifadeleri __(pointer expressions)__<br>
-➡️ gösterici değişkenler __(pointer variables)__<br>
-➡️ göstericiler ve storage __(pointers & storage duration)__<br>
-➡️ adres operatörü __(address of operator)__<br>
-➡️ içerik operatörü __(dereferencing operator)__  <br>
-➡️ diziden adrese dönüşüm __(array to pointer conversion)__<br>
-➡️ geçerli ve geçersiz göstericiler __(valid & invalid pointers)__<br>
-➡️ göstericiler ve const semantiği __(pointers & const semantics)__<br>
-➡️ kendisi const göstericiler __(const pointers)__<br>
-➡️ okuma amaçlı const göstericiler <br>
-➡️ const semantiği ve tür dönüşümleri __(const semantics & type conversions)__<br>
-➡️ gösterici aritmetiği<br>
-➡️ indeks operatörü __(index/subscript operators)_<br>
-➡️ diziler üstünde işlem yapan işlevler <br>
-➡️ göstericiler ve karşılaştırma işlemleri __(pointers & relational operators)__<br>
-➡️ adres döndüren işlevler __(function returning pointers)__<br>
-➡️ NULL gösterici __(NULL pointer)__<br>
-➡️ endianness, little endian, big endian kavramları __(endianness, litlle & big endian)__<br>
-➡️ gösterici hataları __(pointer mistakes)__<br>
-➡️ Oyun Quiz <br>
+	➡️ adres ifadeleri (pointer expressions)
+	➡️ gösterici değişkenler (pointer variables)
+	➡️ göstericiler ve storage (pointers & storage duration)
+	➡️ adres operatörü (address of operator)
+	➡️ içerik operatörü (dereferencing operator)  
+	➡️ diziden adrese dönüşüm (array to pointer conversion)
+	➡️ geçerli ve geçersiz göstericiler (valid & invalid pointers)
+	➡️ göstericiler ve const semantiği (pointers & const semantics)
+	➡️ kendisi const göstericiler (const pointers)
+	➡️ okuma amaçlı const göstericiler 
+	➡️ const semantiği ve tür dönüşümleri (const semantics & type conversions)
+	➡️ gösterici aritmetiği
+	➡️ indeks operatörü (index/subscript operators)_
+	➡️ diziler üstünde işlem yapan işlevler 
+	➡️ göstericiler ve karşılaştırma işlemleri (pointers & relational operators)
+	➡️ adres döndüren işlevler (function returning pointers)
+	➡️ NULL gösterici (NULL pointer)
+	➡️ endianness, little endian, big endian kavramları (endianness, litlle & big endian)
+	➡️ gösterici hataları (pointer mistakes)
+	➡️ Oyun Quiz 
 
 ##  📌Standart string Kütüphanesi (string library)
-➡️ strlen, strcpy, strcat, strncpy, strncat işlevleri<br>
-➡️ arama işlevleri: strchr, strnchr, strstr, strpbrk, strspn, strcspn<br>
-➡️ karşılaştırma işlevleri : strcmp, strcoll, stricmp<br>
-➡️ strtok işlevi<br>
-➡️ diğer standart string işlevleri<br>
-➡️ örnek bazı Posix işlevleri<br>
-
+	➡️ strlen, strcpy, strcat, strncpy, strncat işlevleri
+	➡️ arama işlevleri: strchr, strnchr, strstr, strpbrk, strspn, strcspn
+	➡️ karşılaştırma işlevleri : strcmp, strcoll, stricmp
+	➡️ strtok işlevi
+	➡️ diğer standart string işlevleri
+	➡️ örnek bazı Posix işlevleri
 
 ##  📌String Sabitleri (String Literals)
-➡️ string sabitleri ve const doğruluğu __(string literals and const correctness)__<br>
-➡️ string sabitleri ve ömür __(lifespan of string literals)__<br>
-➡️ özdeş string sabitleri <br>
-➡️ string sabitleri ve kaçış sekansları<br>
-➡️ string sabitlerinin birden fazla satıra yayılması<br>
-➡️ Oyun Quiz <br>
+	➡️ string sabitleri ve const doğruluğu (string literals and const correctness)
+	➡️ string sabitleri ve ömür (lifespan of string literals)
+	➡️ özdeş string sabitleri 
+	➡️ string sabitleri ve kaçış sekansları
+	➡️ string sabitlerinin birden fazla satıra yayılması
+	➡️ Oyun Quiz 
 
 ##  📌Gösterici Dizileri (Pointer Arrays)
 
 ##  📌Gösterici Gösteren Gösterici (Pointer to pointer)
 
 ##  📌void Göstericiler (void Pointers)
-➡️ türden bağımsız işlevler __(generic functions)__<br>
-➡️ standart memset, memcpy, memmove, memchr, memcmp işlevleri<br>
-➡️ void ** türü<br>
-➡️ Oyun Quiz <br>
+	➡️ türden bağımsız işlevler (generic functions)
+	➡️ standart memset, memcpy, memmove, memchr, memcmp işlevleri
+	➡️ void ** türü
+	➡️ Oyun Quiz 
 
 ##  📌İşlev Göstericileri (Function Pointers)
-➡️ işlevden adrese dönüşüm __(function to pointer conversion)__<br>
-➡️ işlev göstericileri ve typedef bildirimleri __(function pointers and typedef declarations)__<br>
-➡️ geri çağrı işlev yapısı __(call-back functions)__<br>
-➡️ standart qsort ve bsearch işlevleri<br>
-➡️ işlev gösterici dizileri __(function pointer arrays)__<br>
-➡️ Oyun Quiz <br>
+	➡️ işlevden adrese dönüşüm (function to pointer conversion)
+	➡️ işlev göstericileri ve typedef bildirimleri (function pointers and typedef declarations)
+	➡️ geri çağrı işlev yapısı (call-back functions)
+	➡️ standart qsort ve bsearch işlevleri
+	➡️ işlev gösterici dizileri (function pointer arrays)
+	➡️ Oyun Quiz 
 
 ##  📌Çok Boyutlu Diziler (Multi-dimensional Arrays)
-➡️ çok boyutlu dizileri gösteren göstericiler __(pointer to multi-dimensional arrays)__<br>
-➡️ çok boyutlu dizilerin fonksiyonlara gönderilmesi __(passing multi-dimensional arrays to functions)__<br>
+	➡️ çok boyutlu dizileri gösteren göstericiler (pointer to multi-dimensional arrays)
+	➡️ çok boyutlu dizilerin fonksiyonlara gönderilmesi (passing multi-dimensional arrays to functions)
 
 ##  📌Programların Sonlandırılması
-➡️ normal ve anormal sonlanma __(normal & abnormal termination)__<br>
-➡️ standart exit, atexit ve abort işlevleri<br>
+	➡️ normal ve anormal sonlanma (normal & abnormal termination)
+	➡️ standart exit, atexit ve abort işlevleri
 
 ##  📌Dinamik Bellek Yönetimi (Dynamic Memory Management)
-➡️ dinamik bellek ihtiyacı ve dinamik ömür kavramı __(dynamic storage)__<br>
-➡️ heap alanı ve yönetimi __(heap and heap management)__<br>
-➡️ heap’in parçalara ayrılması __(heap fragmentation)__<br>
-➡️ standart dinamik bellek yönetimi işlevleri __(standard memory management functions)__<br>
-&emsp;&emsp;- malloc<br>
-&emsp;&emsp;- calloc<br>
-&emsp;&emsp;- realloc<br>
-&emsp;&emsp;- free<br>
-➡️ bellek sızıntısı __(memory leak)__<br>
-➡️  __dangling pointers__<br>
-➡️ boşa düşen göstericiler __(dangling pointers)__<br>
-➡️ dinamik dizi veri yapısı __(dynamic array data structure)__<br>
-➡️ dinamik gözterici dizileri __(dynamic pointer arrays)__<br>
-		
+	➡️ dinamik bellek ihtiyacı ve dinamik ömür kavramı (dynamic storage)
+	➡️ heap alanı ve yönetimi (heap and heap management)
+	➡️ heap’in parçalara ayrılması (heap fragmentation)
+	➡️ standart dinamik bellek yönetimi işlevleri (standard memory management functions)
+	    - malloc
+	    - calloc
+	    - realloc
+	    - free
+	➡️ bellek sızıntısı (memory leak)
+	➡️  dangling pointers
+	➡️ boşa düşen göstericiler (dangling pointers)
+	➡️ dinamik dizi veri yapısı (dynamic array data structure)
+	➡️ dinamik gözterici dizileri (dynamic pointer arrays)
+
 ##  📌Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Modifiers)
-➡️ yer belirleyiciler __(storage  class specifiers)__ <br>
-&emsp;&emsp;-- auto anahtar sözcüğü<br>
-&emsp;&emsp;-- register anahtar sözcüğü<br>
-&emsp;&emsp;-- extern anahtar sözcüğü<br>
-&emsp;&emsp;-- static anahtar sözcüğü<br>
-➡️ modül ve bağlantı kategorileri<br>
-➡️ global isim alanının kirlenmesi problemi __(global namespace pollution problem)__<br>
-➡️ tür niteleyicileri __(type modifiers)__<br>
-&emsp;&emsp;- const anahtar sözcüğü ve const semantiği __(const keyword & const semantics)__<br>
-&emsp;&emsp;- volatile anahtar sözcüğü __(volatile keyword)__<br>
-&emsp;&emsp;- restrict anahtar sözcüğü __(restrict keyword)__<br>
-➡️ Oyun Quiz <br>
+	➡️ yer belirleyiciler (storage  class specifiers) 
+	    -- auto anahtar sözcüğü
+	    -- register anahtar sözcüğü
+	    -- extern anahtar sözcüğü
+	    -- static anahtar sözcüğü
+	➡️ modül ve bağlantı kategorileri
+	➡️ global isim alanının kirlenmesi problemi (global namespace pollution problem)
+	➡️ tür niteleyicileri (type modifiers)
+	    - const anahtar sözcüğü ve const semantiği (const keyword & const semantics)
+	    - volatile anahtar sözcüğü (volatile keyword)
+	    - restrict anahtar sözcüğü (restrict keyword)
+	➡️ Oyun Quiz 
 
 ##  📌Programların sonlandırılması
-➡️ Normal sonlanma ve standart exit işlevi __(normal termination & std. exit function)__<br>
-➡️ standart atexit işlevi __(std. atexit function)__<br>
-➡️ Anormal sonlanma ve standart abort işlevi __(abnormal termination)__<br>
+	➡️ Normal sonlanma ve standart exit işlevi (normal termination & std. exit function)
+	➡️ standart atexit işlevi (std. atexit function)
+	➡️ Anormal sonlanma ve standart abort işlevi (abnormal termination)
 	
 ##  📌Standart time Kütüphanesi (time Library)
-➡️ takvim zamanı ve ayrıştırılmış zaman __(calender time & broken-down time)__<br>
-➡️ time_t türü<br>
-➡️ clock_t türü<br>
-➡️ struct tm yapısı<br>
-➡️ time, localtime, gmtime, ctime, asctime, strftime, mktime, clock işlevleri
+	➡️ takvim zamanı ve ayrıştırılmış zaman (calender time & broken-down time)
+	➡️ time_t türü
+	➡️ clock_t türü
+	➡️ struct tm yapısı
+	➡️ time, localtime, gmtime, ctime, asctime, strftime, mktime, clock işlevleri
 
 ##  📌Yapılar (Structures)
-➡️ genel sentaks<br>
-➡️ yapı öğeleri __(structure members)__<br>
-➡️ nokta operatörü __(member selection - dot operator)__<br>
-➡️ ok operatörü __(member selection - arrow operator)__<br>
-➡️ yapı nesnelerine ilk değer verilmesi __(initialization of structure variables)__<br>
-➡️ yapı nesneleri ve işlevler __(functions with structure parameters)__<br>
-➡️ tamamlanmış ve eksik türler __(complete / incomplete types)__<br>
-➡️ içsel türler __(nested types)__<br>
-➡️ yapı öğesinin kendi türünden gösterici olması<br>
-➡️ düğüm kavramı __(nodes)__ <br>
-➡️ bağlı liste (linked list) veri yapısı<br>
-➡️ ikili arama ağacı veri yapısı __(binary search tree data structure)__ <br>
-➡️ yapı türlerinden sabitler __(compound literals)__<br>
-➡️ handle kavramı ve nesne yönelimli C kütüphaneleri<br>
-➡️ hizalama ve yapı türleri<br>
-➡️ anonim yapılar __(anonymous structures)__<br>
-➡️ yapıların içsel türleri __(nested types of structures)__<br>
-➡️ Oyun Quiz <br>
+	➡️ genel sentaks
+	➡️ yapı öğeleri (structure members)
+	➡️ nokta operatörü (member selection - dot operator)
+	➡️ ok operatörü (member selection - arrow operator)
+	➡️ yapı nesnelerine ilk değer verilmesi (initialization of structure variables)
+	➡️ yapı nesneleri ve işlevler (functions with structure parameters)
+	➡️ tamamlanmış ve eksik türler (complete / incomplete types)
+	➡️ içsel türler (nested types)
+	➡️ yapı öğesinin kendi türünden gösterici olması
+	➡️ düğüm kavramı (nodes) 
+	➡️ bağlı liste (linked list) veri yapısı
+	➡️ ikili arama ağacı veri yapısı (binary search tree data structure) 
+	➡️ yapı türlerinden sabitler (compound literals)
+	➡️ handle kavramı ve nesne yönelimli C kütüphaneleri
+	➡️ hizalama ve yapı türleri
+	➡️ anonim yapılar (anonymous structures)
+	➡️ yapıların içsel türleri (nested types of structures)
+	➡️ Oyun Quiz 
 
 ##  📌Birlikler (Unions)
-➡️ birliklerin kullanım temaları<br>
-➡️ tagged unions<br>
-➡️ birliklerin bit alanı öğeler ile kullanımı<br>
+	➡️ birliklerin kullanım temaları
+	➡️ tagged unions
+	➡️ birliklerin bit alanı öğeler ile kullanımı
 
 ##  📌Numaralandırmalar (Enumarations)
-➡️ numaralandırma sabitleri __(enumaration constants)__<br>
-➡️ enum idiyomları __(enum idioms)__<br>
-➡️ Oyun Quiz <br>
+	➡️ numaralandırma sabitleri (enumaration constants)
+	➡️ enum idiyomları (enum idioms)
+	➡️ Oyun Quiz 
 
 ##  📌Standart stddef Kütüphanesi
 
 ##  📌Bitsel İşlemler (Bitwise Operations)
-➡️ bitsel operatörler __(bitwise operators)__<br>
-➡️ bitsel manipülasyon işlemleri __(bitwise manipulations)__<br>
-➡️ yapıların bit alanı öğeleri __(bitfield members of structures)__<br>
-➡️ bitsel işlemler ve birlikler __(bitwise operations & unions)__<br>
-➡️ bit vektör kullanımı __(bit vectors)__<br>
-➡️ bitsel düzeyde oluşturulan arama (lookup) tabloları<br>
-➡️ Oyun Quiz <br>
+	➡️ bitsel operatörler (bitwise operators)
+	➡️ bitsel manipülasyon işlemleri (bitwise manipulations)
+	➡️ yapıların bit alanı öğeleri (bitfield members of structures)
+	➡️ bitsel işlemler ve birlikler (bitwise operations & unions)
+	➡️ bit vektör kullanımı (bit vectors)
+	➡️ bitsel düzeyde oluşturulan arama (lookup) tabloları
+	➡️ Oyun Quiz 
 
 ##  📌Komut Satırı Argümanları (Command Line Arguments)
 
 ##  📌Dosya İşlemleri (File Operations)
-➡️ dosyaların açılması ve kapatılması<br>
-➡️ dosya açış modları<br>
-➡️ fopen, freopen, fclose ve fcloseall işlevleri<br>
-➡️ okuma ve yazma işlemleri<br>
-➡️ formatlı okuma yazma işlemleri<br>
-➡️ formatsız okuma yazma işlemleri<br>
-➡️ standart dosya konum göstericisi işlevleri<br>
-➡️ feof, ferror, clearerr, fflush işlevleri<br>
-➡️ fsetbuf işlevi<br>
-➡️ ungetc işlevi<br>
-➡️ Diğer dosya işlevleri ve örnek uygulamalar<br>
-➡️ Oyun Quiz <br>
+	➡️ dosyaların açılması ve kapatılması
+	➡️ dosya açış modları
+	➡️ fopen, freopen, fclose ve fcloseall işlevleri
+	➡️ okuma ve yazma işlemleri
+	➡️ formatlı okuma yazma işlemleri
+	➡️ formatsız okuma yazma işlemleri
+	➡️ standart dosya konum göstericisi işlevleri
+	➡️ feof, ferror, clearerr, fflush işlevleri
+	➡️ fsetbuf işlevi
+	➡️ ungetc işlevi
+	➡️ Diğer dosya işlevleri ve örnek uygulamalar
+	➡️ Oyun Quiz 
 
 ##  📌errno.h başlık dosyası
-➡️ errno değişkeni<br>
-➡️ strerror ve perror fonksionları<br>
+	➡️ errno değişkeni
+	➡️ strerror ve perror fonksionları
 
 ##  📌Standart signal kütüphanesi
 
 ##  📌Önişlemci Komutları – 2
-➡️ önişlemci operatörleri __(preprocessor operators)__<br>
-➡️ \# dizge yapma operatörü __(stringification operator)__ <br>
-➡️ \## atom yapıştırma operatörü __(token-pasting operator)__ <br>
-➡️ defined operatörü __(defined operator)__<br>
-➡️ öntanımlı sembolik sabitler __(predefined symbolic constants)__<br>
-➡️ #line komutu __(line directive)__<br>
-➡️ #error komutu __(error directive)__<br>
-➡️ #pragma komutu __pragma directive)__<br>
-➡️ Oyun Quiz <br>
+	➡️ önişlemci operatörleri (preprocessor operators)
+	➡️ \# dizge yapma operatörü (stringification operator) 
+	➡️ \## atom yapıştırma operatörü (token-pasting operator) 
+	➡️ defined operatörü (defined operator)
+	➡️ öntanımlı sembolik sabitler (predefined symbolic constants)
+	➡️ #line komutu (line directive)
+	➡️ #error komutu (error directive)
+	➡️ #pragma komutu pragma directive)
+	➡️ Oyun Quiz 
 
 ## 📌C99 Standartları ile Eklenen Önemli Öğeler
-➡️ long long veri türü __(long long data type)__ <br>
-➡️ for döngü deyiminde yapılan bildirimler<br>
-➡️ \_Bool anahtar sözcüğü ve _<stdbool.h>_ başlık dosyası<br>
-➡️ <stdint.h> başlık dosyası ve standart tür eş isimleri<br>
-➡️ inline fonksiyonlar __(inline functions)__<br>
-➡️ değişken boyutlu diziler __(variable length arrays)__<br>
-➡️ yapıların esnek dizi öğeleri __(flexible array members)__<br>
-➡️ restrict belirteci __(restrict qualifier)__<br>
-➡️ bileşik sabitler __(compound literals)__<br>
-➡️ variadic makrolar __(variadic macros)__<br>
-➡️ C99 standartları ile eklenen diğer standart kütüphane öğeleri<br>
-➡️ C11 standartları<br>
+	➡️ long long veri türü (long long data type) 
+	➡️ for döngü deyiminde yapılan bildirimler
+	➡️ \_Bool anahtar sözcüğü ve _<stdbool.h>_ başlık dosyası
+	➡️ <stdint.h> başlık dosyası ve standart tür eş isimleri
+	➡️ inline fonksiyonlar (inline functions)
+	➡️ değişken boyutlu diziler (variable length arrays)
+	➡️ yapıların esnek dizi öğeleri (flexible array members)
+	➡️ restrict belirteci (restrict qualifier)
+	➡️ bileşik sabitler (compound literals)
+	➡️ variadic makrolar (variadic macros)
+	➡️ C99 standartları ile eklenen diğer standart kütüphane öğeleri
+	➡️ C11 standartları
 
 ##  📌assert Makrosu
 
-##  📌\_Static\_assert__ (C11)
+##  📌\_Static\_assert (C11)
 
 ##  📌Değişken Sayıda Argümanla Çağrılabilen İşlevler (Variadic Functions)
-➡️ Oyun Quiz <br>
+	➡️ Oyun Quiz 
 
 
 
