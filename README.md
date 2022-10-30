@@ -1,4 +1,4 @@
-# C Programlama Dili Egitimi İçeriği (Düzenlenmektedir)
+# 📚C Programlama Dili Egitimi İçeriği (Düzenlenmektedir)
 
 ### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir. 
 
